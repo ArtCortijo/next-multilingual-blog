@@ -1,9 +1,9 @@
-import Link from 'next/link';
-import PaddingContainer from '../layout/padding-container';
+import Link from "next/link";
+import PaddingContainer from "../layout/padding-container";
 
 const Navigation = () => {
 	return (
-		<div className="border-b sticky top-0 left-0 right-0 bg-[#fff] bg-opacity-50 backdrop-blur-md">
+		<div className="border-b sticky top-0 z-[999] left-0 right-0 bg-[#fff] bg-opacity-50 backdrop-blur-md">
 			<PaddingContainer>
 				<div className="nav-wrapper flex items-center justify-between py-5">
 					<Link className="text-lg font-bold" href="/">
